@@ -1,0 +1,19 @@
+🔑 Access ModifiersThese 
+define the visibility and accessibility of your method from other classes:
+**public – Accessible from any class in any package.
+**protected – Accessible within the same package and by subclasses.
+**private – Accessible only within the exact same class.
+(Leave Blank) – Uses package-private (default) visibility, accessible only within the same package.
+
+⚙️ Non-Access Modifiers
+These alter the behavior, inheritance, or execution environment of the method:
+**final – Prevents subclasses from overriding the method.
+**abstract – Declares a method without an implementation (used in abstract classes or interfaces).
+**synchronized – Restricts access to a single thread at a time for multi-threading safety.
+**native – Indicates the method is implemented in another language like C or C++.
+**strictfp – Forces strict floating-point calculations for identical results across platforms.
+
+📋 Valid CombinationsYou can combine an access modifier with a non-access modifier:
+public final void methodname()
+private synchronized void methodname()
+protected abstract void methodname()
